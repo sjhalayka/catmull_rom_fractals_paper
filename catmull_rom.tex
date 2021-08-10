@@ -41,6 +41,8 @@ Once all of the Mandelbrot set's trajectories have been generated, they are conv
 
 The primary motivation for the exploration of the trajectories of the complex Mandelrbrot set was to introduce a new type of visualization.
 
+The quaternion Mandelbrot set is also considered.
+
 
 \section{Why Catmull-Rom curves?}
 
@@ -79,24 +81,54 @@ Catmull-Rom curves are pretty.
 
 \begin{figure} 
 \centering
-  \includegraphics[width = 4 in]{rainbow_500_iterations_non_curved.png}	
-  \caption{Iterations = 500. Actual trajectories are drawn.}
+  \includegraphics[width = 6.5 in]{rainbow_500_iterations_non_curved.png}	
+  \caption{Complex Mandelbrot set.
+Maximum iterations = 500.
+Grid minimum = -1.5, grid maximum 1.5.
+Threshold = 4.0.
+Resolution = 25.
+Actual trajectories are drawn.}
 \end{figure}
 
 \begin{figure} 
 \centering
-  \includegraphics[width = 4 in]{rainbow_500_iterations.png}	
-  \caption{Iterations = 500. Catmull-Rom trajectories are drawn.}
-\end{figure}
-
-\begin{figure} 
-\centering
-  \includegraphics[width = 4 in]{pseudorandom_500_iterations.png}	
+  \includegraphics[width = 6.5 in]{rainbow_500_iterations.png}	
   \caption{
-Iterations = 500. 
+Complex Mandelbrot set.
+Maximum iterations = 500.
+Grid minimum = -1.5, grid maximum 1.5.
+Threshold = 4.0. 
+Resolution = 25.
+Catmull-Rom trajectories are drawn.}
+\end{figure}
+
+\begin{figure} 
+\centering
+  \includegraphics[width = 6.5 in]{pseudorandom_500_iterations.png}	
+  \caption{
+Complex Mandelbrot set.
+Maximum iterations = 500.
+Grid minimum = -1.5, grid maximum 1.5.
+Threshold = 4.0.
+Resolution = 25.
 Catmull-Rom trajectories are drawn.
 Pseudorandomly-assigned colours are used, to help differentiate between the individual trajectories.}
 \end{figure}
+
+
+\begin{figure} 
+\centering
+  \includegraphics[width = 6.5 in]{quaternion_mandelbrot.png}	
+  \caption{
+Quaternion Mandelbrot set.
+Maximum iterations = 500.
+Grid minimum = -1.5, grid maximum 1.5.
+Threshold = 4.0.
+Resolution = 10.
+Catmull-Rom trajectories are drawn.
+The majority of the trajectories are periodic orbits.}
+\end{figure}
+
 
 \end{document}
 
