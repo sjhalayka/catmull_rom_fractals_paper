@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.3)  10 AUG 2021 13:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.3)  10 AUG 2021 13:25
 entering extended mode
 **./catmull_rom.tex
 (catmull_rom.tex
@@ -309,7 +309,7 @@ Here is how much of TeX's memory you used:
  9219 multiletter control sequences out of 15000+200000
  10154 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,39p,298b,326s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,39p,304b,326s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -321,7 +321,7 @@ mr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on catmull_rom.pdf (4 pages, 16100181 bytes).
+Output written on catmull_rom.pdf (4 pages, 16100184 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
