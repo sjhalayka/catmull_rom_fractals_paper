@@ -32,21 +32,24 @@ The trajectories of the complex Mandelbrot set are visualized using Catmull-Rom 
 
 \section{Introduction}
 
-As discussed in many papers, a 2D scalar field of complex magnitudes (e.g. $|Z| = \sqrt{Z_x^2 + Z_y^2}$) results from calculating the complex Mandelbrot set when using a finite 2D lattice of regularly spaced vertices as input.
+As discussed in many papers, books, and websites, a 2D scalar field of complex magnitudes (e.g. $|Z| = \sqrt{Z_x^2 + Z_y^2}$) results from calculating the complex Mandelbrot set when using a finite 2D lattice of regularly spaced vertices as input.
 See Figure 1 for the visualization of a lattice.
-Iteration is performed to obtain the trajectories of a complex Mandelbrot set.
+Iteration is performed to obtain the trajectories of the complex Mandelbrot set.
 See Figure 2 for the tiny C++ iteration code.
+As shown in Figure 2, the iterative equation is
+\begin{equation}
+Z = Z^2 + C.
+\end{equation}
 
 The criterion for an input location being in the set is that the location's trajectory's end vertex magnitude is always less than some threshold.
-See Figure 3 for a low-resolution Mandelbrot set.
+See Figure 3 for a low-resolution version of the Mandelbrot set.
 For this paper, we use a maximum iteration count of $500$, and a threshold value of $4.0$.
 
 Once all of the complex Mandelbrot set's trajectories have been generated, they are converted to Catmull-Rom curves, to be visualized using OpenGL. 
 See Figure 4 for a visualization of some of the complex Mandelbrot trajectories.
-See Figure 5 for a medium-resolution Mandelbrot set.
-The primary motivation for the exploration of the trajectories of the complex Mandelbrot set was to introduce a new type of visualization.
+See Figure 5 for a medium-resolution version of the Mandelbrot set.
 
-See Figure 6 for all of the Mandelbrot trajectories.
+The primary motivation for the exploration of the trajectories of the complex Mandelbrot set was to introduce a new type of visualization: see Figure 6 for all of the complex Mandelbrot trajectories.
 
 
 \section{Why Catmull-Rom curves?}
@@ -56,6 +59,7 @@ This is unlike B\'ezier curves, where the line is only guaranteed to go through 
 
 Catmull-Rom curves offer $C_1$ continuity -- continuity in both position and tangent vectors.
 As such, the closed (periodic) loops of the complex Mandelbrot set are easy to visualize.
+On the other hand, B\'ezier curves do not offer such built-in $C_1$ continuity.
 
 See Figure 7 for all of the Mandelbrot trajectories, but drawn using Catmull-Rom curves.
 
@@ -120,7 +124,7 @@ No trajectories are drawn.
 \begin{figure} 
 \centering
   \includegraphics[width = 5 in]{sample_trajectories.png}	
-  \caption{Complex Mandelbrot set example trajectories.
+  \caption{A few examples of the complex Mandelbrot trajectories.
 Maximum iterations = 500.
 Grid minimum = -1.5, grid maximum 1.5.
 Threshold = 4.0.
