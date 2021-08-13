@@ -25,7 +25,7 @@
 \maketitle
 
 \begin{abstract}
-The trajectories of the Mandelbrot set are visualized using Catmull-Rom curves and OpenGL.
+The trajectories of the complex Mandelbrot set are visualized using Catmull-Rom curves and OpenGL.
 \end{abstract}
 
 
@@ -37,7 +37,7 @@ As discussed in many papers, a 2D scalar field of complex magnitudes (e.g. $|Z| 
 Iteration is performed to obtain the trajectories of a complex Mandelbrot set.
 The criterion for an input location being in the set is that the location's trajectory's end vertex magnitude is always less than some threshold.
 For this paper, we use a maximum iteration count of $500$, and a threshold value of $4.0$.
-Once all of the Mandelbrot set's trajectories have been generated, they are converted to Catmull-Rom curves, to be visualized using OpenGL. 
+Once all of the complex Mandelbrot set's trajectories have been generated, they are converted to Catmull-Rom curves, to be visualized using OpenGL. 
 
 The primary motivation for the exploration of the trajectories of the complex Mandelrbrot set was to introduce a new type of visualization.
 
@@ -50,11 +50,11 @@ Catmull-Rom curves seem to encode a higher degree of fidelity, when it comes to 
 This is unlike B\'ezier curves, where the line is only guaranteed to go through the beginning and end control points.
 
 Catmull-Rom curves offer $C_1$ continuity -- continuity in both position and tangent vectors.
-As such, the closed (periodic) loops of the Mandelbrot set are easy to visualize.
+As such, the closed (periodic) loops of the complex Mandelbrot set are easy to visualize.
 
 Catmull-Rom curves are as computationally intensive as B\'ezier curves, but not much more.
 
-Catmull-Rom curves are pretty.
+Catmull-Rom curves are attractive-looking.
 
 
 
@@ -69,14 +69,69 @@ Catmull-Rom curves are pretty.
 
 \begin{thebibliography}{9}
 \bibitem{bourke} Bourke. (2018) ``3D volumetric fractal trajectories''
-\bibitem{halayka2} Halayka. (2018) ``Visualizing the escape paths of quaternion fractals''
+\bibitem{halayka} Halayka. (2018) ``Visualizing the escape paths of quaternion fractals''
+\bibitem{chen} Chen. (2017) ``C++ B\'ezier / spline / Catmull-Rom curve library'' \linebreak \url{https://github.com/chen0040/cpp-spline}
+
 \end{thebibliography}
 
 
 
 \pagebreak
 
+\begin{figure} 
+\centering
+  \includegraphics[width = 5 in]{grid.png}	
+  \caption{Grid of sample vertices.
+Grid minimum = -1.5, grid maximum 1.5.
+Resolution = 25.
+}
+\end{figure}
 
+
+\begin{figure} 
+\centering
+  \includegraphics[width = 5 in]{code1.png}	
+  \caption{Iteration C++ code.
+The exponent is 2.0 for this paper.
+}
+\end{figure}
+
+\begin{figure} 
+\centering
+  \includegraphics[width = 5 in]{set1.png}	
+  \caption{Complex Mandelbrot set.
+Maximum iterations = 500.
+Grid minimum = -1.5, grid maximum 1.5.
+Threshold = 4.0.
+Resolution = 25.
+No trajectories are drawn.
+}
+\end{figure}
+
+\begin{figure} 
+\centering
+  \includegraphics[width = 5 in]{sample_trajectories.png}	
+  \caption{Complex Mandelbrot set example trajectories.
+Maximum iterations = 500.
+Grid minimum = -1.5, grid maximum 1.5.
+Threshold = 4.0.
+Resolution = 25.
+Actual trajectories are drawn.
+}
+\end{figure}
+
+
+\begin{figure} 
+\centering
+  \includegraphics[width = 5 in]{set2.png}	
+  \caption{Complex Mandelbrot set.
+Maximum iterations = 500.
+Grid minimum = -1.5, grid maximum 1.5.
+Threshold = 4.0.
+Resolution = 100.
+No trajectories are drawn.
+}
+\end{figure}
 
 
 \begin{figure} 
@@ -91,9 +146,10 @@ Actual trajectories are drawn.
 The majority of the trajectories end up being periodic orbits.}
 \end{figure}
 
+
 \begin{figure} 
 \centering
-  \includegraphics[width = 6.5 in]{rainbow_500_iterations.png}	
+  \includegraphics[width = 5 in]{rainbow_500_iterations.png}	
   \caption{
 Complex Mandelbrot set.
 Maximum iterations = 500.
@@ -106,7 +162,7 @@ The majority of the trajectories end up being periodic orbits.}
 
 \begin{figure} 
 \centering
-  \includegraphics[width = 6.5 in]{pseudorandom_500_iterations.png}	
+  \includegraphics[width = 5 in]{pseudorandom_500_iterations.png}	
   \caption{
 Complex Mandelbrot set.
 Maximum iterations = 500.
@@ -121,7 +177,7 @@ The majority of the trajectories end up being periodic orbits.}
 
 \begin{figure} 
 \centering
-  \includegraphics[width = 6.5 in]{quaternion_mandelbrot.png}	
+  \includegraphics[width = 5 in]{quaternion_mandelbrot.png}	
   \caption{
 Quaternion Mandelbrot set.
 Maximum iterations = 500.
