@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.3)  12 AUG 2021 14:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.3)  13 AUG 2021 11:08
 entering extended mode
 **./catmull_rom.tex
 (catmull_rom.tex
@@ -325,7 +325,7 @@ Overfull \hbox (79.75499pt too wide) in paragraph at lines 124--132
 Here is how much of TeX's memory you used:
  5358 strings out of 492895
  80147 string characters out of 3133480
- 151642 words of memory out of 3000000
+ 151616 words of memory out of 3000000
  9223 multiletter control sequences out of 15000+200000
  10154 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -341,7 +341,7 @@ nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 msfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.p
 fb>
-Output written on catmull_rom.pdf (6 pages, 23196163 bytes).
+Output written on catmull_rom.pdf (6 pages, 23195471 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
