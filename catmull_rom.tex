@@ -32,8 +32,8 @@ The trajectories of the complex Mandelbrot set are visualized using Catmull-Rom 
 
 \section{Introduction}
 
-As discussed in many papers, books, and websites, a 2D scalar field of complex magnitudes (e.g. $|Z| = \sqrt{Z_x^2 + Z_y^2}$) results from calculating the complex Mandelbrot set when using a finite 2D lattice of regularly spaced vertices as input.
-See Figure 1 for the visualization of a lattice.
+As discussed in many papers, books, and websites, a 2D scalar field of complex magnitudes (e.g. $|Z| = \sqrt{Z_x^2 + Z_y^2}$) results from calculating the complex Mandelbrot set when using a finite 2D grid of regularly spaced vertices as input.
+See Figure 1 for the visualization of a grid.
 Iteration is performed to obtain the trajectories of the complex Mandelbrot set.
 See Figure 2 for the tiny C++ iteration code.
 As shown in Figure 2, the iterative equation is
@@ -112,12 +112,11 @@ The exponent is 2.0 for this paper.
 \begin{figure} 
 \centering
   \includegraphics[width = 5 in]{set1.png}	
-  \caption{Complex Mandelbrot set.
+  \caption{Low-resolution version of the complex Mandelbrot set.
 Maximum iterations = 500.
 Grid minimum = -1.5, grid maximum 1.5.
 Threshold = 4.0.
 Resolution = 25.
-No trajectories are drawn.
 }
 \end{figure}
 
@@ -129,7 +128,6 @@ Maximum iterations = 500.
 Grid minimum = -1.5, grid maximum 1.5.
 Threshold = 4.0.
 Resolution = 25.
-Actual trajectories are drawn.
 }
 \end{figure}
 
@@ -137,12 +135,11 @@ Actual trajectories are drawn.
 \begin{figure} 
 \centering
   \includegraphics[width = 5 in]{set2.png}	
-  \caption{Complex Mandelbrot set.
+  \caption{Medium-resolution version of rhe complex Mandelbrot set.
 Maximum iterations = 500.
 Grid minimum = -1.5, grid maximum 1.5.
 Threshold = 4.0.
 Resolution = 100.
-No trajectories are drawn.
 }
 \end{figure}
 

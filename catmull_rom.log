@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.3)  13 AUG 2021 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.3)  13 AUG 2021 19:14
 entering extended mode
 **./catmull_rom.tex
 (catmull_rom.tex
@@ -289,39 +289,39 @@ Package pdftex.def Info: set1.png  used on input line 114.
 <sample_trajectories.png, id=23, 4818.0pt x 3613.5pt>
 File: sample_trajectories.png Graphic file (type png)
 <use sample_trajectories.png>
-Package pdftex.def Info: sample_trajectories.png  used on input line 126.
+Package pdftex.def Info: sample_trajectories.png  used on input line 125.
 (pdftex.def)             Requested size: 361.34999pt x 271.00081pt.
 <set2.png, id=24, 4818.0pt x 3613.5pt>
 File: set2.png Graphic file (type png)
 <use set2.png>
-Package pdftex.def Info: set2.png  used on input line 139.
+Package pdftex.def Info: set2.png  used on input line 137.
 (pdftex.def)             Requested size: 361.34999pt x 271.00081pt.
 <rainbow_500_iterations_non_curved.png, id=25, 4818.0pt x 3613.5pt>
 File: rainbow_500_iterations_non_curved.png Graphic file (type png)
 <use rainbow_500_iterations_non_curved.png>
 Package pdftex.def Info: rainbow_500_iterations_non_curved.png  used on input l
-ine 152.
+ine 149.
 (pdftex.def)             Requested size: 469.75499pt x 352.27348pt.
 
-Overfull \hbox (79.75499pt too wide) in paragraph at lines 152--159
+Overfull \hbox (79.75499pt too wide) in paragraph at lines 149--156
  [][] 
  []
 
 <rainbow_500_iterations.png, id=26, 4818.0pt x 3613.5pt>
 File: rainbow_500_iterations.png Graphic file (type png)
 <use rainbow_500_iterations.png>
-Package pdftex.def Info: rainbow_500_iterations.png  used on input line 165.
+Package pdftex.def Info: rainbow_500_iterations.png  used on input line 162.
 (pdftex.def)             Requested size: 361.34999pt x 271.00081pt.
 <pseudorandom_500_iterations.png, id=27, 4818.0pt x 3613.5pt>
 File: pseudorandom_500_iterations.png Graphic file (type png)
 <use pseudorandom_500_iterations.png>
 Package pdftex.def Info: pseudorandom_500_iterations.png  used on input line 17
-8.
+5.
 (pdftex.def)             Requested size: 361.34999pt x 271.00081pt.
 <quaternion_mandelbrot.png, id=28, 4818.0pt x 3613.5pt>
 File: quaternion_mandelbrot.png Graphic file (type png)
 <use quaternion_mandelbrot.png>
-Package pdftex.def Info: quaternion_mandelbrot.png  used on input line 193.
+Package pdftex.def Info: quaternion_mandelbrot.png  used on input line 190.
 (pdftex.def)             Requested size: 361.34999pt x 271.00081pt.
 [3 <./grid.png>] [4 <./code1.png>] [5 <./set1.png>] [6 <./sample_trajectories.p
 ng>] [7 <./set2.png>] [8 <./rainbow_500_iterations_non_curved.png>] [9 <./rainb
@@ -347,7 +347,7 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9
 e1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmtt12.pfb>
-Output written on catmull_rom.pdf (11 pages, 24727734 bytes).
+Output written on catmull_rom.pdf (11 pages, 24727443 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
