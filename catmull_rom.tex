@@ -43,7 +43,7 @@ Z = Z^2 + C.
 
 The criterion for an input location being in the set is that the location's trajectory's end vertex magnitude is always less than some threshold.
 See Figure 3 for a low-resolution version of the Mandelbrot set.
-For this paper, we use a maximum iteration count of $500$, and a threshold value of $4.0$.
+For this paper, we use a threshold value of $4.0$ for all figures.
 
 Once all of the complex Mandelbrot set's trajectories have been generated, they are converted to Catmull-Rom curves, to be visualized using OpenGL. 
 See Figure 4 for a visualization of some of the complex Mandelbrot trajectories.
@@ -54,24 +54,22 @@ The primary motivation for the exploration of the trajectories of the complex Ma
 
 \section{Why Catmull-Rom curves?}
 
-Catmull-Rom curves seem to encode a higher degree of fidelity, when it comes to the line passing through all of the control points.
-This is unlike B\'ezier curves, where the line is only guaranteed to go through the beginning and end control points.
+Compared to  B\'ezier curves, Catmull-Rom curves seem to encode a higher degree of fidelity when it comes to the line passing through all of the control points.
 
 Catmull-Rom curves offer $C_1$ continuity -- continuity in both position and tangent vectors.
 As such, the closed (periodic) loops of the complex Mandelbrot set are easy to visualize.
 On the other hand, B\'ezier curves do not offer such built-in $C_1$ continuity.
 
-See Figure 7 for all of the Mandelbrot trajectories, but drawn using Catmull-Rom curves.
+See Figure 7 for all of the Mandelbrot trajectories, drawn using Catmull-Rom curves using rainbow colouring.
 
-See Figure 8 for all of the Mandelbrot trajectories, but drawn using Catmull-Rom curves and pseudorandomly-assigned colours.
+See Figure 8 for all of the Mandelbrot trajectories, drawn using Catmull-Rom curves and pseudorandomly-assigned colours.
+
 
 Catmull-Rom curves are as computationally intensive as B\'ezier curves, but not much more.
 
-Catmull-Rom curves are attractive-looking.
-
 The quaternion Mandelbrot set is also briefly considered in Figure 9.
 
-
+Catmull-Rom curves are attractive, in several different ways.
 
 
 
@@ -105,7 +103,7 @@ Resolution = 25.
 \centering
   \includegraphics[width = 5 in]{code1.png}	
   \caption{Iteration C++ code.
-The exponent is 2.0 for this paper.
+The exponent is 2 in this paper.
 }
 \end{figure}
 
@@ -113,6 +111,7 @@ The exponent is 2.0 for this paper.
 \centering
   \includegraphics[width = 5 in]{set1.png}	
   \caption{Low-resolution version of the complex Mandelbrot set.
+Only the vertices within the set are drawn.
 Maximum iterations = 500.
 Grid minimum = -1.5, grid maximum = 1.5.
 Threshold = 4.0.
@@ -183,6 +182,14 @@ Catmull-Rom trajectories are drawn.
 Pseudorandomly-assigned colours are used, to help differentiate between the individual trajectories.
 The majority of the trajectories end up being periodic orbits.}
 \end{figure}
+
+
+
+
+
+
+
+
 
 
 \begin{figure} 
