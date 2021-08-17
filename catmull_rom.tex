@@ -32,22 +32,17 @@ The trajectories of the complex Mandelbrot set are visualized using Catmull-Rom 
 
 \section{What is the complex Mandelbrot set?}
 
-The complex Mandelbrot set is a set of vertices in 2D (complex) space that satisfy a particular mathematical criterion.
+The complex Mandelbrot set is a set of vertices in 2D (complex) space that satisfy a particular mathematical criterion -- the trajectory assocated with each vertex remains within the sphere defined by threshold $= 4$ while undergoing iteration.
 
-As discussed in many papers, books, and websites, a 2D scalar field of complex magnitudes (e.g. $|Z| = \sqrt{Z_x^2 + Z_y^2}$) results from calculating the complex Mandelbrot set when using a finite 2D grid of regularly spaced vertices as input.
-See Figure 1 for the visualization of a grid.
-Iteration is performed to obtain the trajectories of the complex Mandelbrot set.
+See Figure 1 for the visualization of an input grid.
 See Figure 2 for the tiny C++ iteration code.
 As shown in Figure 2, the iterative equation is
 \begin{equation}
 Z = Z^2 + C.
 \end{equation}
 
-The criterion for an input location being in the set is that the location's trajectory's end vertex's aforementioned magnitude is always less than some threshold.
 See Figure 3 for a low-resolution version of the Mandelbrot set.
-For this paper, we use a threshold value of $4.0$ for all figures.
 
-Once all of the complex Mandelbrot set's trajectories have been generated, they are converted to Catmull-Rom curves, to be visualized using OpenGL. 
 See Figure 4 for a visualization of some of the complex Mandelbrot trajectories.
 See Figure 5 for a medium-resolution version of the Mandelbrot set.
 See Figure 6 for all of the complex Mandelbrot trajectories.
