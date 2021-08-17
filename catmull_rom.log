@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.3)  17 AUG 2021 11:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.3)  17 AUG 2021 11:39
 entering extended mode
 **./catmull_rom.tex
 (catmull_rom.tex
@@ -271,7 +271,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
  [1
 
 {C:/Users/cowco/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 8000) in paragraph at lines 78--79
+Underfull \hbox (badness 8000) in paragraph at lines 77--78
 []\OT1/cmr/m/n/12 Ventrella. (2021) ``Man-del-brot Or-bits'' JavaScript Web Ap-
 plet
  []
@@ -280,54 +280,54 @@ plet
 <grid.png, id=18, 4818.0pt x 3613.5pt>
 File: grid.png Graphic file (type png)
 <use grid.png>
-Package pdftex.def Info: grid.png  used on input line 90.
+Package pdftex.def Info: grid.png  used on input line 89.
 (pdftex.def)             Requested size: 361.34999pt x 271.00081pt.
 <code1.png, id=19, 457.71pt x 436.63126pt>
 File: code1.png Graphic file (type png)
 <use code1.png>
-Package pdftex.def Info: code1.png  used on input line 100.
+Package pdftex.def Info: code1.png  used on input line 99.
 (pdftex.def)             Requested size: 361.34999pt x 344.72171pt.
 <set1.png, id=20, 4818.0pt x 3613.5pt>
 File: set1.png Graphic file (type png)
 <use set1.png>
-Package pdftex.def Info: set1.png  used on input line 108.
+Package pdftex.def Info: set1.png  used on input line 107.
 (pdftex.def)             Requested size: 361.34999pt x 271.00081pt.
 <sample_trajectories.png, id=21, 4818.0pt x 3613.5pt>
 File: sample_trajectories.png Graphic file (type png)
 <use sample_trajectories.png>
-Package pdftex.def Info: sample_trajectories.png  used on input line 120.
+Package pdftex.def Info: sample_trajectories.png  used on input line 119.
 (pdftex.def)             Requested size: 361.34999pt x 271.00081pt.
 <set2.png, id=22, 4818.0pt x 3613.5pt>
 File: set2.png Graphic file (type png)
 <use set2.png>
-Package pdftex.def Info: set2.png  used on input line 132.
+Package pdftex.def Info: set2.png  used on input line 131.
 (pdftex.def)             Requested size: 361.34999pt x 271.00081pt.
 <rainbow_500_iterations_non_curved.png, id=23, 4818.0pt x 3613.5pt>
 File: rainbow_500_iterations_non_curved.png Graphic file (type png)
 <use rainbow_500_iterations_non_curved.png>
 Package pdftex.def Info: rainbow_500_iterations_non_curved.png  used on input l
-ine 144.
+ine 143.
 (pdftex.def)             Requested size: 469.75499pt x 352.27348pt.
 
-Overfull \hbox (79.75499pt too wide) in paragraph at lines 144--151
+Overfull \hbox (79.75499pt too wide) in paragraph at lines 143--150
  [][] 
  []
 
 <rainbow_500_iterations.png, id=24, 4818.0pt x 3613.5pt>
 File: rainbow_500_iterations.png Graphic file (type png)
 <use rainbow_500_iterations.png>
-Package pdftex.def Info: rainbow_500_iterations.png  used on input line 157.
+Package pdftex.def Info: rainbow_500_iterations.png  used on input line 156.
 (pdftex.def)             Requested size: 361.34999pt x 271.00081pt.
 <pseudorandom_500_iterations.png, id=25, 4818.0pt x 3613.5pt>
 File: pseudorandom_500_iterations.png Graphic file (type png)
 <use pseudorandom_500_iterations.png>
-Package pdftex.def Info: pseudorandom_500_iterations.png  used on input line 17
-0.
+Package pdftex.def Info: pseudorandom_500_iterations.png  used on input line 16
+9.
 (pdftex.def)             Requested size: 361.34999pt x 271.00081pt.
 <quaternion_mandelbrot.png, id=26, 4818.0pt x 3613.5pt>
 File: quaternion_mandelbrot.png Graphic file (type png)
 <use quaternion_mandelbrot.png>
-Package pdftex.def Info: quaternion_mandelbrot.png  used on input line 193.
+Package pdftex.def Info: quaternion_mandelbrot.png  used on input line 192.
 (pdftex.def)             Requested size: 361.34999pt x 271.00081pt.
 [3 <./grid.png>] [4 <./code1.png>] [5 <./set1.png>] [6 <./sample_trajectories.p
 ng>] [7 <./set2.png>] [8 <./rainbow_500_iterations_non_curved.png>] [9 <./rainb
@@ -351,7 +351,7 @@ s/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmtt12.pfb>
-Output written on catmull_rom.pdf (11 pages, 24713165 bytes).
+Output written on catmull_rom.pdf (11 pages, 24713162 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
